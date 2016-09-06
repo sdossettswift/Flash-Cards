@@ -14,12 +14,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBOutlet weak var questionsLabel: UILabel!
+    
+    
+    @IBOutlet weak var aswerLabel: UILabel!
+    
+    
+    @IBAction func revealAnswer(sender: AnyObject) {
+    
     }
 
+    @IBAction func nextQuestion(sender: AnyObject) {
+        
+    }
 
 }
+
 
