@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let questions = ["What is my favorite color?", "What is the best code school?"]
-    let answers = ["Turquoise", "TIY"]
+    let questions = ["What is my favorite color?", "What is the best code school?", "What was my first language?", "Who is my favorite cousin?"]
+    let answers = ["Turquoise", "TIY", "Ruby", "Taylor"]
     var currentlyDisplayedQuestionNumber = 0
     
 
