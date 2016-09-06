@@ -81,7 +81,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="aswerLabel" destination="3He-po-a4U" id="gvY-F4-OLG"/>
+                        <outlet property="answerLabel" destination="3He-po-a4U" id="Leo-R5-vhY"/>
                         <outlet property="questionsLabel" destination="mCG-E4-UAB" id="SGy-8G-K7t"/>
                     </connections>
                 </viewController>

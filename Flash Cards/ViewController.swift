@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let questions = ["What is my favorite color?", "What is the best code school?"]
+    let answers = ["Turquoise", "TIY"]
+    var currentlyDisplayedQuestionNumber = 0
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,14 +22,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionsLabel: UILabel!
     
     
-    @IBOutlet weak var aswerLabel: UILabel!
+    @IBOutlet weak var answerLabel: UILabel!
     
     
     @IBAction func revealAnswer(sender: AnyObject) {
+        answerLabel.textColor = UIColor.blackColor()
     
     }
 
     @IBAction func nextQuestion(sender: AnyObject) {
+        
+        answerLabel.textColor = UIColor.whiteColor()
+        questionsLabel.text = questions[currentlyDisplayedQuestionNumber]
+        answerLabel.text = answers[currentlyDisplayedQuestionNumber]
+        currentlyDisplayedQuestionNumber += 1
+        if currentlyDisplayedQuestionNumber == questions.count {
+            currentlyDisplayedQuestionNumber = 0
+        }
         
     }
 
