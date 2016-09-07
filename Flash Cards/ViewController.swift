@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func revealAnswer(sender: AnyObject) {
-        answerLabel.textColor = UIColor.blackColor()
+        answerLabel.textColor = UIColor.cyanColor()
     
     }
 
