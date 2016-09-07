@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let questions = ["What is my favorite color?", "What is the best code school?", "What was my first language?", "Who is my favorite cousin?"]
-    let answers = ["Turquoise", "TIY", "Ruby", "Taylor"]
+    let questions = ["Taylor Swift's second album", "Taylor Swift's fourth album", "Taylor Swift's most recent boyfriend", "Taylor Swift's hometown", "Sarah Swift's favorite Taylor Swift album", "Taylor's middle name", "TSwift's BDay", "TSwift's Estimated Net Worth (as of June 2016)"]
+    
+    let answers = ["Fearless", "Red", "Tom Hiddleston. RIP HIDDLESWIFT", "Wyomissing, Pennsylvania", "1989", "Alison", "December 13, 1989", "$250 million"]
+
     var currentlyDisplayedQuestionNumber = 0
     
 
